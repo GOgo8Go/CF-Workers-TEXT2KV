@@ -121,7 +121,7 @@ export default {
 			  },
 			});
 		} else {// 如果 token 不符，返回 'token 有误'//
-			return new Response('token 有误', {
+			return new Response('404', {
 				status: 400,
 				headers: { 'content-type': 'text/plain; charset=utf-8' },
 			});
